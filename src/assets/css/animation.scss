@@ -1,0 +1,31 @@
+.animcard {
+    display: block;
+    margin: 0 auto;
+    animation: bottomup 1.5s 1;
+  }
+
+@keyframes bottomup {
+    25% {
+        transform: translate(0, -3em);
+        }
+    }
+
+.animtablenews {    
+    animation: newsfadingin 1s 1;
+}
+
+@keyframes newsfadingin {
+    25% {
+        transform: scale(0.9);
+        }
+    }
+
+.animtablepic {    
+    animation: bottomdown 1s 1;
+}
+
+@keyframes bottomdown {
+    25% {
+        transform: translate(0, 3em);
+        }
+    }
